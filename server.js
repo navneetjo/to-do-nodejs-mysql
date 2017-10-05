@@ -3,7 +3,7 @@ var _mysql = require('mysql');
 var mysql = _mysql.createConnection({
         host: 'localhost',
         port: 3306,
-        user: 'root',
+        user: '',
         password: '',
     });
 
@@ -15,7 +15,7 @@ var express  = require('express');
 var app      = express(); 								// create our app w/ express
 //var mongoose = require('mongoose'); 					// mongoose for mongodb
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3000;
 
 // configuration ===============================================================
 
